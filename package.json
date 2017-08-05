@@ -1,37 +1,41 @@
 {
-  "name": "cordova-plugin-wechat",
-  "version": "1.4.0",
-  "description": "A cordova plugin, a JS version of Wechat SDK",
-  "cordova": {
-    "id": "cordova-plugin-wechat",
-    "platforms": [
-      "ios",
-      "android"
-    ]
+  "name": "cordova-plugin-qqsdk",
+  "version": "0.9.6",
+  "description": "codrova/phonegap wrapper for qq sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xu-li/cordova-plugin-wechat.git"
+    "url": "git+https://github.com/iVanPan/Cordova_QQ.git"
+  },
+  "cordova": {
+    "id": "cordova-plugin-qqsdk",
+    "platforms": [
+      "android",
+      "ios"
+    ]
   },
   "keywords": [
-    "cordova",
-    "wechat",
-    "weixin",
-    "share",
     "ecosystem:cordova",
+    "cordova-android",
     "cordova-ios",
-    "cordova-android"
+    "cordova",
+    "phonegap",
+    "plugin",
+    "qqsdk",
+    "qq",
+    "TIM",
+    "Tencent",
+    "login",
+    "share",
+    "favorites"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.5.0"
-    }
-  ],
-  "author": "xu.li <AthenaLightenedMyPath@gmail.com>",
+  "author": "https://github.com/iVanPan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xu-li/cordova-plugin-wechat/issues"
+    "url": "https://github.com/iVanPan/Cordova_QQ/issues"
   },
-  "homepage": "https://github.com/xu-li/cordova-plugin-wechat#readme"
+  "homepage": "https://github.com/iVanPan/Cordova_QQ"
 }
